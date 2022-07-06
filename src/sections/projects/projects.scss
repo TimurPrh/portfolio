@@ -1,0 +1,13 @@
+@import '../../styles/mixins.scss';
+
+.projects {
+  min-height: 400px;
+  background-color: var(--background-color);
+  padding: 40px 0;
+  &__header {
+    @include header;
+  }
+  &__item {
+    margin: 20px 0;
+  }
+}

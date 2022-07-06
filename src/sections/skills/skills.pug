@@ -1,0 +1,9 @@
+- const list = require('/src/sections/skills/list.json')
+section.skills#skills 
+  .container 
+    h3.skills__header Technologies, that i use 
+    .skills__list 
+      each tech in list.techs
+        .skills__item 
+          img(src=require('/src/assets/icons/' + tech + '.svg'), alt=tech)
+    

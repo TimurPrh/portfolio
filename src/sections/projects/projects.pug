@@ -1,0 +1,9 @@
+- const list = require('/src/sections/projects/list.json')
+include ../../components/project-card/project-card.pug
+section.projects#projects 
+  .container 
+    h3.projects__header Projects
+    .project__list 
+      each project in list.projects
+        .projects__item
+          +project-card(project)

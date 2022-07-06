@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "Pizza store",
+      "description": "Онлайн магазин, где можно заказать пиццу. Для изменения меню есть админ панель, где также можно отслеживать заказы.",
+      "page": "http://pizza-store.na4u.ru",
+      "github": "https://github.com/TimurPrh/pizza-store",
+      "techs": ["react", "redux", "express", "mysql"]
+    },
+    {
+      "name": "Toxin hotel",
+      "description": "Макеты страниц по поиску номеров в отеле.",
+      "page": "http://toxin-hotel.na4u.ru",
+      "github": "https://github.com/TimurPrh/toxin-hotel",
+      "techs": ["pug", "scss", "jquery"]
+    },
+    {
+      "name": "Todos",
+      "description": "Простой список заметок с авторизацией.",
+      "page": "http://todos.na4u.ru",
+      "github": "https://github.com/TimurPrh/simple-todos",
+      "techs": ["react", "mobx", "express", "jwt", "postgresql"]
+    },
+    {
+      "name": "Cards game",
+      "description": "Игра где нужно отыскать все пары карт.",
+      "page": "http://cards-game.na4u.ru",
+      "github": "https://github.com/TimurPrh/cards-game",
+      "techs": ["react"]
+    }
+  ]
+}

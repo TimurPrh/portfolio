@@ -1,0 +1,16 @@
+{
+  "techs": [
+      "html",
+      "css",
+      "pug",
+      "scss",
+      "js",
+      "react",
+      "redux",
+      "mobx",
+      "node-js",
+      "express",
+      "mysql",
+      "postgresql"
+    ]
+}

@@ -1,0 +1,23 @@
+mixin project-card(project)  
+  .project-card
+    .project-card__left
+      .project-card__header=project.name 
+      p.project-card__description=project.description 
+      if project.techs
+        .project-card__techs
+          each tech in project.techs
+            .project-card__tech=tech 
+    .project-card__right 
+      .project-card__link
+        .project-card__link-type Repository 
+        a.project-card__link-url-wrapper(href=project.github, target="_blank")
+          .project-card__link-url-img 
+            img(src=require('/src/assets/icons/github.svg'), alt="github") 
+          .project-card__link-url=project.github
+      .project-card__line
+      .project-card__link
+        .project-card__link-type Page
+        a.project-card__link-url-wrapper(href=project.page, target="_blank")
+          .project-card__link-url-img 
+            img(src=require('/src/assets/icons/link.svg'), alt="page") 
+          .project-card__link-url=project.page
