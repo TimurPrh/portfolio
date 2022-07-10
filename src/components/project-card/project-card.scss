@@ -59,6 +59,9 @@
   a {
     text-decoration: none;
     color: initial;
+    &:focus {
+      outline: 2px solid var(--primary-color);
+    }
   }
   @media (max-width: 768px) {
     column-gap: 14px;

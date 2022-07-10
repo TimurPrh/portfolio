@@ -51,6 +51,9 @@
   }
   a {
     text-decoration: none;
+    &:focus {
+      outline: 2px solid var(--primary-color);
+    }
   }
   &__img {
     height: 50vh;
