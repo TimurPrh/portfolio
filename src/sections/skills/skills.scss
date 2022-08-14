@@ -11,12 +11,29 @@
     justify-content: center;
   }
   &__item {
+    position: relative;
     width: 80px;
     height: 80px;
     margin: 20px 40px;
     img {
       width: 100%;
       height: 100%;
+    }
+    &::after {
+      content: attr(data-name);
+      position: absolute;
+      padding: 2px 0;
+      width: 100%;
+      left: 0;
+      top: 100%;
+      background: var(--primary-color);
+      color: #fff;
+      text-align: center;
+      opacity: 0;
+      transition: ease opacity .4s;
+    }
+    &:hover::after {
+      opacity: 1;
     }
   }
 }
