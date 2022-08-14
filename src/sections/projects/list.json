@@ -28,5 +28,13 @@
       "github": "https://github.com/TimurPrh/cards-game",
       "techs": ["react"]
     }
+    ,
+    {
+      "name": "Compose the word game",
+      "description": "A game where you need to compose the word. Moving letters by drag or by click. Dual language support: English and Russian.",
+      "page": "http://word-game.na4u.ru",
+      "github": "https://github.com/TimurPrh/compose-word-game",
+      "techs": ["react"]
+    }
   ]
 }
